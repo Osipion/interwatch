@@ -1,0 +1,6 @@
+rootProject.name = 'app1'
+
+include ':app'
+
+include ':react-native-wheel-picker'
+project(':react-native-wheel-picker').projectDir = new File(settingsDir, '../node_modules/react-native-wheel-picker/android')
